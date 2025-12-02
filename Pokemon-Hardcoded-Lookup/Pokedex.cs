@@ -4,7 +4,6 @@ public class Pokedex
 {
     public List<Pokemon> Pokemons = new List<Pokemon>();
     
-    // En liste av Pokemon (objekt) som vi bruker i Program.cs
     public void LoadPokemons()
     {
         Pokemons.Add(new Pokemon(){idPokedex = "0001", Name = "Baulbasaur", Level = 5, Health = 45, Type = "Grass"});
@@ -32,7 +31,7 @@ public class Pokedex
         Pokemons.Add(new Pokemon(){idPokedex = "0023", Name = "Ekans", Level = 7, Health = 35, Type = "Poisen"});
         Pokemons.Add(new Pokemon(){idPokedex = "0024", Name = "Arbok", Level = 22, Health = 60, Type = "Poisen"});
         Pokemons.Add(new Pokemon(){idPokedex = "0025", Name = "Pikachu", Level = 10, Health = 35, Type = "Electric"});
-        // ... Fortsett å legge til flere Pokemon etter behov
+        // ... Fortsett ï¿½ legge til flere Pokemon etter behov
     }
 }
 
