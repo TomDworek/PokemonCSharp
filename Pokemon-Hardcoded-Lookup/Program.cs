@@ -19,7 +19,7 @@ class Program
             Pokemon foundPokemon = null;
 
             // her går vi gjennom i alle Pokemons (objekt) i Pokedex.cs
-            foreach (var pokemon in pokedex.Pokemons)
+            foreach (var pokemon in pokedex.Pokemons) // her går vi gjennom i alle Pokemons (objekt) i Pokedex.cs
             {
                 if (pokemon.idPokedex == pdNumber)
                 {

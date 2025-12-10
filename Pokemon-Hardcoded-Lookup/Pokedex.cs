@@ -35,4 +35,3 @@ public class Pokedex
         // ... Fortsett å legge til flere Pokemon etter behov
     }
 }
-
